@@ -74,7 +74,7 @@ export default {
                 await sendEmailVerification(user)
                 toast.info('debes verificar tu correo electronico')
                 
-                this.$router.push('/login')
+                this.$router.push('/perfil')
 
                 
                 
